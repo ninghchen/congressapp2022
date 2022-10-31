@@ -1,0 +1,126 @@
+.title-container {
+    overflow: hidden;
+    margin-bottom: 5px;
+    background-image: url("title5.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.header-icon-l {
+	width: 8%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+/* small screen */
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    width: 80%;
+    float: left;
+    background: linear-gradient(to right, #060EF7, #ffffff, #060EF7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(4px 4px #333);
+}
+
+.feature-item {
+    height: 50px;
+    width: 30%;
+    font-size: 16px;
+    padding-left: 10px;
+    float: left;
+    border: 1px red solid;
+}
+
+.feature-item-check {
+    width: 20px;
+    border: 1px blue solid;
+}
+
+.preview-table{
+    overflow: hide;
+    width: 100%;
+}
+
+.result-display{
+    overflow: hide;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* median screen */
+@media only screen and (min-width: 768px) {
+.header-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    width: 80%;
+    float: left;
+    background: linear-gradient(to right, #060EF7 25%, #ffffff 50%, #060EF7 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(4px 4px #333);
+}
+
+.feature-select {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.feature-item {
+    height: 30px;
+    width: 33%;
+    font-size: 16px;
+    padding-left: 10px;
+    float: left;
+}
+}
+
+/* large screen */
+@media only screen and (min-width: 992px) {
+.header-title {
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    width: 80%;
+    float: left;
+    background: linear-gradient(to right, #060EF7 25%, #ffffff 50%, #060EF7 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(4px 4px #333);
+}
+.feature-item {
+    height: 30px;
+    width: 25%;
+    font-size: 16px;
+    padding-left: 10px;
+    float: left;
+}
+}
+
+.header-icon-r {
+	width: 8%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: right;
+}
+
+.sub-title {
+    font-size: 16px;
+    font-weight: bold;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    margin-left: 50px;
+}
